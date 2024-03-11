@@ -4,9 +4,9 @@ public class Mahasiswa {
         return "Universitas Muhammadiyah Malang" ;
     }
     private static final int MAX_MAHASISWA = 10;
-    private final String[] nama = new String[MAX_MAHASISWA];
-    private final String[] nim = new String[MAX_MAHASISWA];
-    private final String[] jurusan = new String[MAX_MAHASISWA];
+    private final String[] nama = new String [MAX_MAHASISWA];
+    private final String[] nim = new String [MAX_MAHASISWA];
+    private final String[] jurusan = new String [MAX_MAHASISWA];
     private int jumlahMahasiswa = 0;
 
     public void tampilDataMahasiswa() {
